@@ -1,0 +1,131 @@
+html {
+    font-size: 100%;
+}
+* {
+    margin: 0;
+    outline: 2px red solid;
+}
+#section1 {
+    display: flex;
+    min-height: 100vh;
+}
+.img1 {
+    max-width: 9.375rem;
+    display: flex;
+    align-self: center;
+    margin-top: 0.5rem;
+}
+.div1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #2B221B;
+    width: 13.75rem;
+    max-width: 100%;
+    height: 100vh;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    gap: 1.25rem;
+}
+.div1 hr {
+    display: flex;
+    align-self: center;
+    width: 11.25rem;
+}
+.list1, .list2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    list-style: none;
+}
+.list1 {
+    margin-top: 1.25rem;
+}
+.list1 li, .list2 li {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+.list1 li i, .list2 li i {
+    width: 1.25rem;
+    text-align: center;
+}
+.log-out {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    margin-top: 1.25rem;
+}
+.log-out i {
+    width: 1.25rem;
+    text-align: center;
+}
+.fa-right-from-bracket {
+    color: yellow;
+}
+.div1 i {
+    font-size: 1rem;
+}
+.div2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 2.5rem;
+    flex: 1;
+}
+.top {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-left: 1rem;
+}
+.icons i {
+    font-size: 1.7rem;
+}
+.div3 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    flex: 1;
+}
+.div3 h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.7rem;
+}
+.div3 h3 {
+    font-family: sans-serif;
+    color: grey;
+    font-size: 1rem;
+}
+
+.div5 {
+    flex: 3;
+    height: 14rem;
+    background: #6B4226;
+    border-radius: 1rem;
+}
+.cards {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+.div4 {
+    flex: 7;
+    height: 14rem;
+    background: #D8C9B4;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+}
+.man1 {
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
