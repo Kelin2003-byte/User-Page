@@ -3,7 +3,7 @@ html {
 }
 * {
     margin: 0;
-    outline: 2px red solid;
+    outline: red 2px solid;
 }
 #section1 {
     display: flex;
@@ -122,10 +122,23 @@ html {
     display: flex;
     align-items: center;
     padding-left: 2rem;
+    gap: 1rem;
 }
 .man1 {
-    width: 7rem;
-    height: 7rem;
+    width: 10rem;
+    height: 10rem;
     object-fit: cover;
     border-radius: 50%;
+}
+.div6 {
+    transform: translateY(-1rem);
+    line-height: 2rem;
+}
+.div6 h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2rem;
+}
+.div6 p {
+    line-height: 1.2rem;
+    text-align: center;
 }
